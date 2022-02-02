@@ -1,0 +1,10 @@
+A=[1 4 2;2 4 100;7 9 7;3 pi 42]
+B=log(A)
+The_second_row_of_B = B(2,:)
+The_sum_of_the_second_row_of_B = sum(B(2,:))
+The_product_of_B_and_A = B(:,2).*A(:,1)
+Maximum_value = max(B(:,2).*A(:,1))
+result1=A(1,:)
+result2=B(1:3,3)'
+result=A(1,:)./B(1:3,3)'
+The_sum_of_the_elements = sum(result)
